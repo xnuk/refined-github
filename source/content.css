@@ -52,9 +52,6 @@
 	border-top-left-radius: 3px !important;
 	border-top-right-radius: 3px !important;
 }
-.dashboard-sidebar .user-repos .repo-icon {
-	opacity: 0.6 !important;
-}
 
 /* Remove news feed tips */
 .news > .text-gray:last-child {
@@ -79,11 +76,6 @@
 .notification-indicator::before,
 .notification-indicator::after {
 	display: none !important;
-}
-
-/* Fade out the file icons */
-.file-wrap .files .octicon {
-	opacity: 0.6;
 }
 
 #readme > h3 {
@@ -903,20 +895,6 @@ a.tabnav-extra[href$='mastering-markdown/'] {
 	}
 }
 
-/* Clean up the global footer */
-body > .footer {
-	opacity: 0.3;
-}
-body > .footer > div > ul:first-of-type li:first-of-type { /* The `© 2017 GitHub, Inc.` text */
-	display: none;
-}
-.footer-octicon {
-	display: none;
-}
-body > .footer li a {
-	color: #666;
-}
-
 /* Widen review popup to fit 4 buttons */
 :root .pull-request-review-menu {
 	width: 430px;
@@ -938,9 +916,6 @@ body > .footer li a {
 	display: none;
 }
 
-.dashboard .flex-items-baseline .f6.mt-2 {
-	opacity: 0.5;
-}
 .dashboard .flex-items-baseline .border {
 	padding: 0 !important;
 	border: none !important;
